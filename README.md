@@ -9,8 +9,9 @@ This repository contains AI implementations for a turn-based card game, showcasi
   - Determinized Greedy Rollout Search (DGRS)
   - Single-Agent Budgeted DESPOT (SAB-DESPOT)
 - Comparison to Information Set Monte Carlo Tree Search (ISMCTS)
-- Modular personality-driven AI system with weighted intents and finite state machines
-- Simulation framework for testing AI performance and behavior diversity
+- Modular personality-driven AI system implemented in `Personalities.cs` using weighted intents and finite state machines
+- Utilities for AI support included in `/ai`
+- DOT tree generation code for visualization in `/dot`
 - Architecture diagrams and visualizations illustrating AI decision flow
 
 ## Notes
@@ -23,12 +24,10 @@ This repository contains AI implementations for a turn-based card game, showcasi
 ```
 
 turn-based-card-game-ai/
-├── ai/                 # AI algorithm implementations
-├── personality/        # Personality system code
-├── simulation/         # Simulation framework (Unity/C#)
-├── diagrams/           # Architecture and analysis visuals
-├── docs/               # Thesis summary and supporting documentation
-└── README.md           # Project overview
+├── ai/                  # AI algorithm implementations and utility scripts
+├── dot/                 # Code for DOT tree generation
+├── Personalities.cs     # Personality system implementation
+└── diagrams/            # Architecture and analysis visuals
 
 ```
 
@@ -40,9 +39,11 @@ turn-based-card-game-ai/
 
 ## How to Use
 
-1. Review the AI classes in `ai/` and `personality/`.  
-2. Integrate into your own Unity project to simulate AI opponents.  
-3. See `diagrams/` for visualizations of the architecture and evaluation results.
+1. Review the AI classes and utilities in `/ai`.  
+2. Examine the personality system in `Personalities.cs`.  
+3. Use `/dot` scripts to generate DOT trees for AI decision visualization.  
+4. Integrate into your own Unity project to simulate AI opponents.  
+5. See `/diagrams` for architecture diagrams and evaluation visualizations.
 
 ## Author
 
