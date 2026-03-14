@@ -4,11 +4,11 @@ This repository contains AI implementations for a turn-based card game, showcasi
 
 ## Features
 
-- Implementation of multiple AI techniques:
+- Implementation of three novel AI techniques:
   - Determinized Greedy Search (DGS)
   - Determinized Greedy Rollout Search (DGRS)
-  - Information Set Monte Carlo Tree Search (ISMCTS)
   - Single-Agent Budgeted DESPOT (SAB-DESPOT)
+- Comparison to Information Set Monte Carlo Tree Search (ISMCTS)
 - Modular personality-driven AI system with weighted intents and finite state machines
 - Simulation framework for testing AI performance and behavior diversity
 - Architecture diagrams and visualizations illustrating AI decision flow
@@ -36,7 +36,7 @@ turn-based-card-game-ai/
 
 - C# / Unity (AI integration)
 - Python (optional analysis scripts — not included)
-- Git & GitHub for version control
+- Unity VCS for version control
 
 ## How to Use
 
@@ -46,5 +46,5 @@ turn-based-card-game-ai/
 
 ## Author
 
-**Arcane Lean** — software developer and game AI researcher  
+**Aron Davids** — software developer and game AI researcher  
 Based on Master’s Thesis: *Evaluating Strategic AI Techniques and Personality-Driven Behavior for Commercial Turn-Based Card Games*
